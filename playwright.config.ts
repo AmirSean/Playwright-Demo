@@ -3,6 +3,7 @@ require("dotenv").config();
 require("./playwright.config");
 const config: PlaywrightTestConfig = {
   workers: 1,
+  reporter: [["html", { outputFolder: "playwright-report", open: "never" }]],
   projects: [
     {
       name: "Swag Labs",
