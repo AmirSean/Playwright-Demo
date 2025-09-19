@@ -7,6 +7,15 @@ The demo uses Swag Labs (https://www.saucedemo.com/) as the target app to showca
 
 ---
 
+## Example Reports
+
+The latest test report can be downloaded from the GitHub Actions run:
+
+1. Go to the Actions tab.
+2. Open the most recent workflow run.
+3. Download the artifact named `playwright-report`.
+4. Unzip it and open `index.html` in a browser.
+
 ## Features
 
 - One complete E2E flow: login -> add to cart -> checkout
